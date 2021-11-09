@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(208, 212, 208);
+    margin: 0;
+    padding: 0;
+}
+
+.top_div{
+    background-color: rgb(97, 158, 255);
+    width: 100%;
+    height: 100px;
+}
+/* logo css */
+img#walogo{
+    margin-top: 25px;
+    margin-left: 70px;
+    object-fit: scale-down;
+    height: 38px;
+    width: 38px;
+    display: block;
+    float: left;
+}
+#up_text{
+    margin-top: 35px;   
+    font-family: 'segoe UI';
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    float: left;
+    display: block;
+}
+
+
+.form-container{
+   align-items: center;
+    border: 5px solid white;
+    border-radius: 15px;
+    display:flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    margin-inline: auto;
+    margin-block: 50px;
+    padding: 50px;
+    background-color: rgb(97, 158, 255);
+}
+.exist-account{
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+}
+input{
+    height: 30px;
+    width: 200px;
+    border-radius: 4px;
+    border: 1px transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+button{
+    float: right;
+    height: 30px;
+    width: 83.1%;
+    border-radius: 4px;
+    background-color: wheat;
+    border: 1px transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+input::placeholder{
+    padding: 5px;
+}
+#pass-img{
+    display: block;
+    float: left;
+    margin-right: 18px;
+}
+#email-pic{
+    height: 32px;
+    width: 32px;
+    object-fit: scale-down;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}

@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(210, 210, 210);
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul{
+    color: rgb(23, 23, 116);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bolder;
+    font-size: 200%;     
+}
+img{
+    object-fit: scale-down;
+    align-self: center;
+    width: 75%;
+    height: 75%;
+    border: 3px solid black;
+    padding: 0px;
+    padding: auto;
+    border: 1px solid black;
+}
+ol{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: rgb(255, 158, 97);
+}
+li{
+    text-align: center;
+    font-style: italic;
+    list-style: none;
+}
+#slp{
+    
+    color: rgb(255, 97, 158);
+    background-color: black;
+    font-family: monospace;
+    font-size: 16px;
+    height: fit-content;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+span{
+    color: black;
+}
+
+#NAVI_Major{
+    border: 4px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    animation-name: lol;
+    animation-duration: 100ms;
+    animation-iteration-count: infinite;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+@keyframes lol{
+    from{background-color: black; border-color: yellow;}
+    to{background-color: yellow; border-color: black;}
+}
+.yellow{
+    color: yellow;
+}
+
+.navi{
+    width: 30%;
+    height: fit-content;
+    margin-left: 1%;
+    text-align: justify;
+    display: inline-block;
+}
+
+.navii{
+    width: 30%;
+    margin-left: 13%;
+    height:fit-content;
+    text-align: justify;
+    display: block;
+    float: left;
+    margin-top: 40px;
+}
+
+.s1mple{
+    background-color: rgb(255, 158, 255);
+    border: 1px solid rgb(255, 158, 255);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.electronic{
+    background-color: rgb(97, 158, 255);
+    border: 1px solid rgb(97, 158, 255);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+div.lord{
+    background-color: rgb(255, 255, 97);
+    border: 1px solid rgb(255, 255, 97);
+    border-radius: 15px;
+    padding: 10px;
+}
+div.b1t{
+    margin-top: 60px;
+    background-color: rgb(158, 255, 97);
+    border: 1px solid rgb(158, 255, 97);
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+h1{
+    text-align: center;
+    font-family: monospace;
+}
+#lol{
+    background-color: lightgreen;
+
+}
+.perfecto{
+    background-color: rgb(158, 255, 255);
+    border: 1px solid rgb(158, 255, 255);
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+
+.catto_wrap{
+    position: relative;
+}
+.catto_desc{
+    font-size: 10px;
+    position: relative;
+    color: #000;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.catto_wrap:hover .catto_desc{
+    visibility: visible;
+    opacity: 1;
+}
+.catto_img{
+    width: 50%;
+    height: 50%;
+}
